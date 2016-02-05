@@ -1,0 +1,21 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+
+int main()
+{
+	setlocale(LC_ALL, "Russian");
+	int a, b;
+
+	puts ("Введите два числа: ");
+	scanf ("%d%d", &a, &b);
+	
+	printf ("Сумма чисел: %d\n", a + b);
+	printf ("Произведение чисел: %d\n", a * b);
+	printf ("Разность чисел: %d\n", a - b);
+	printf ("Частное чисел: %d\n", a / b);
+	printf ("Результат взятия по модулю чисел: %d\n", a % b);
+	
+	_getch ();
+}
